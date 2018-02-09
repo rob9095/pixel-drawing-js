@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>Pixel Art Drawer!</title>
+    <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <h1>Pixel Drawing App</h1>
+    <hr>
+    <h2>Choose Grid Size</h2>
+    <form id="sizePicker" class="inputForm">
+        <input class="input" type="number" id="input_height" name="height" min="1" placeholder="Grid Height" required>
+        <input class="input" type="number" id="input_width" name="width" min="1" placeholder="Grid Width" required>
+        <input class="button submit" type="submit" id="submit" value="Make Grid!">
+  </form>
+    <div id="pixel_canvas" class="container" tabindex='1'>
+      <div id="grid" class="grid">
+      <div class="welcome">
+        <p>Hey there! It looks like you haven't made a <span>grid</span> yet. Just fill in the <span>form</span> above and hit the "Make Grid!" button to get started!</p></div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Made with <3 by Rob Tucker | 2018</p>
+    </div>
+</body>
+</html>
